@@ -1,0 +1,28 @@
+body {
+    background: black;
+    color: darkgoldenrod;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+#listadoGeneral,
+#listadoCompletadas,
+#listadoSinCompletar {
+    font-size: initial;
+    font-weight: normal;
+}
+
+#listaGeneral,
+#listaCompletadas,
+#listaSinCompletar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "descripcion": "Hacer la compra de alimentos",
+        "estado": false
+    },
+    {
+        "id": 2,
+        "descripcion": "Estudiar JavaScript",
+        "estado": true
+    },
+    {
+        "id": 3,
+        "descripcion": "Ir al gimnasio",
+        "estado": false
+    }
+]
