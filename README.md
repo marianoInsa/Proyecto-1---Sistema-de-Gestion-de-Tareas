@@ -1,16 +1,21 @@
-Lista de Tareas
-Crea una aplicación de lista de tareas donde los usuarios puedan agregar nuevas tareas, marcarlas como completadas y eliminarlas.
+Gestion de Tareas:
+
+Crea una aplicación de gestion de tareas donde el usuario pueda realizar las siguientes funciones: Agregar nuevas tareas, marcarlas como completadas y eliminar tareas.
 
 Operaciones a realizar:
-Crear una interfaz de usuario: Utiliza HTML y CSS para diseñar la interfaz de usuario donde se mostrarán las tareas.
 
-Módulo de gestión de tareas: Crea un módulo en JavaScript para manejar la lógica de las tareas (agregar, completar, eliminar).
+-Crear una interfaz de usuario: Utiliza HTML y CSS para diseñar la interfaz de usuario donde se mostrarán las tareas.
 
-Importar/exportar módulos: Divide tu código en módulos separados para la interfaz de usuario y la lógica de las tareas, luego únelos utilizando import/export.
+-Módulo de gestión de tareas: Crea un módulo en JavaScript para manejar la lógica de las tareas (agregar, completar, eliminar).
 
-Cargar datos desde un archivo JSON: Utiliza async/await para cargar datos de un archivo JSON que contenga las tareas guardadas. Esto simulará cargar tareas de una base de datos.
+-Importar/exportar módulos: Divide tu código en módulos separados para la interfaz de usuario y la lógica de las tareas, luego únelos utilizando import/export.
+
+-Cargar datos desde un archivo JSON: Utiliza async/await para cargar datos de un archivo JSON que contenga las tareas guardadas. Esto simulará cargar tareas de una base de datos.
 
 Desafíos:
-Implementa la función de edición de tareas.
-Añade la capacidad de guardar las tareas en el archivo JSON después de cada modificación.
-Implementa filtros para mostrar solo las tareas completadas, pendientes, etc.
+
+-Implementa la función de edición de tareas.
+
+-Añade la capacidad de guardar las tareas en el archivo JSON después de cada modificación.
+
+-Implementa filtros para mostrar solo las tareas completadas, pendientes, etc.
