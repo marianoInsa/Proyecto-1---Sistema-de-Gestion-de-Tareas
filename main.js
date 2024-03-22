@@ -169,11 +169,11 @@ async function main() {
         }
     });
 
-    // Actualizar tarea
-    botonActualizarTarea.addEventListener('click', event => {
+    // Editar tarea
+    botonEditarTarea.addEventListener('click', event => {
         event.preventDefault();
         if (ulGeneral.childNodes.length > 0) {
-            const idTarea = parseInt(prompt('Ingrese el ID de la tarea a actualizar:'));
+            const idTarea = parseInt(prompt('Ingrese el ID de la tarea a editar:'));
             let bandera = false;
             let indice;
             for (let i = 0; i < tareas.length; i++) {
@@ -185,7 +185,18 @@ async function main() {
             }
             if (bandera) {
                 const nuevaDesc = prompt('Ingrese la nueva descripcion para la tarea: ');
-                let aux = document.getElementById('')
+                let aux = document.getElementById(`tareaGen${idTarea}`);
+                aux.innerText = nuevaDesc;
+                if (tareas[indice].estado) {
+                    aux = document.getElementById(`tareaCom${idTarea}`);
+                    aux.innerText = nuevaDesc;
+                } else {
+                    aux = document.getElementById(`tareaSin${idTarea}`);
+                    aux.innerText = nuevaDesc;
+                }
+                console.log('Nueva lista de tareas: ');
+                tareas[indice].descripcion = nuevaDesc;
+                mostrarTareasPorConsola(tareas);
             }
         } else {
             alert('No hay tareas!');
