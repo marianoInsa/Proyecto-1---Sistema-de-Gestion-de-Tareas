@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header id="encabezado">
+        <h1 id="tituloPrincipal">Modulo de Gestion de Tareas</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Vista Completa</a>
+            </li>
+            <li>
+                <a href="listadoGeneral.html">Listado General de Tareas</a>
+            </li>
+            <li>
+                <a href="listadoCompletadas.html">Listado de Tareas Completadas</a>
+            </li>
+            <li>
+                <a href="listadoSinCompletar.html">Listado de Tareas sin Completar</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="contenidoPrincipal">
+    
+        <div class="contenedorListado">
+            <h2 class="tituloListado">Listado de Tareas Completadas</h2>
+            <div id="listadoCompletadas">
+
+            </div>
+        </div>
+
+        <div class="contenedorAcciones">
+            <h3 id="tituloAcciones">Acciones</h3>
+            <form id="formTareas">
+                <button type="button" id="botonAgregarTarea">Agregar tarea</button>
+                <button type="button" id="botonCompletarTarea">Completar tarea</button>
+                <button type="button" id="botonEliminarTarea">Eliminar tarea</button>
+                <button type="button" id="botonEditarTarea">Editar tarea</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <!--aca voy a agregar mi info y esas vrgas-->
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
