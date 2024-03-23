@@ -7,6 +7,34 @@ header {
     text-align: center;
 }
 
+#contenedorNav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px; /* Espacio entre elementos */
+}
+
+nav ul li a {
+    color: darkgoldenrod;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Transición para el cambio de color de fondo */
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Color de fondo al pasar el ratón por encima */
+}
+
 main {
     text-align: center;
 }
