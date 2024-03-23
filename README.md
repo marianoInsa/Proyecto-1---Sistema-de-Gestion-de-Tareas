@@ -4,18 +4,16 @@ Crea una aplicación de gestion de tareas donde el usuario pueda realizar las si
 
 Operaciones a realizar:
 
--Crear una interfaz de usuario: Utiliza HTML y CSS para diseñar la interfaz de usuario donde se mostrarán las tareas.
+-Crear una interfaz de usuario.
 
--Módulo de gestión de tareas: Crea un módulo en JavaScript para manejar la lógica de las tareas (agregar, completar, eliminar).
+-Implementar la lógica para el módulo de gestión de tareas.
 
--Importar/exportar módulos: Divide tu código en módulos separados para la interfaz de usuario y la lógica de las tareas, luego únelos utilizando import/export.
+-Importar/exportar módulos.
 
--Cargar datos desde un archivo JSON: Utiliza async/await para cargar datos de un archivo JSON que contenga las tareas guardadas. Esto simulará cargar tareas de una base de datos.
+-Cargar datos desde un archivo JSON: Utilización de async/await para cargar datos de un archivo JSON que contenga las tareas guardadas.
 
 Desafíos:
 
 -Implementa la función de edición de tareas.
-
--Añade la capacidad de guardar las tareas en el archivo JSON después de cada modificación.
 
 -Implementa filtros para mostrar solo las tareas completadas, pendientes, etc.
